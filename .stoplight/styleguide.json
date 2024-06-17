@@ -10,18 +10,6 @@
     "oas3.1"
   ],
   "aliases": {},
-  "rules": {
-    "test-rule": {
-      "id": "6kdj40bgC0KpMH33CN498",
-      "given": [
-        "#Request_Parameter_Query"
-      ],
-      "severity": "error",
-      "then": {
-        "function": "casing"
-      },
-      "name": "test-rule"
-    }
-  },
+  "rules": {},
   "extendedDefault": false
 }
