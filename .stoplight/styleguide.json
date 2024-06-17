@@ -1,0 +1,27 @@
+{
+  "name": "test_spectral_rules",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    "test-rule": {
+      "id": "6kdj40bgC0KpMH33CN498",
+      "given": [
+        "#Request_Parameter_Query"
+      ],
+      "severity": "error",
+      "then": {
+        "function": "casing"
+      },
+      "name": "test-rule"
+    }
+  },
+  "extendedDefault": false
+}
