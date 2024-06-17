@@ -16,7 +16,7 @@
       "given": [
         "#Request_Parameter_Query"
       ],
-      "severity": "off",
+      "severity": "error",
       "then": {
         "function": "casing"
       },
